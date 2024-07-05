@@ -12,6 +12,7 @@
 4. Comparison of 3 different losses has been conducted: cross-enthropy, [dice](https://paperswithcode.com/paper/generalised-dice-overlap-as-a-deep-learning) and [focal](https://arxiv.org/abs/1708.02002v2) loss.
 The network with each loss was trained for 50 epochs.
 NB: For cross-enthropy equivalent, but more numerically stable form is used
+
 ![](assets/ce.jpg)
 
 ![](assets/metric.jpg)
