@@ -1,5 +1,5 @@
 # This repository implements AE, VAE and CVAE.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Image_Editing_StyleCLIP_Optimization/blob/main/notebooks/styleCLIP_optimization_playground.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/DLS_Computer_Vision/blob/main/Autoencoders_AE_VAE_CVAE/notebooks/Autoencoders_VAE_CVAE.ipynb.ipynb)
 1. We implement vanilla autoencoder and train it to encode and decode people's faces. We use Labeled Faces in the Wild dataset [1](https://vis-www.cs.umass.edu/lfw/), [2](https://www.cs.columbia.edu/CAVE/databases/pubfig/). Latent space dimension is 200. This dataset also has some features that describe some face properties like smiling index:
 ![](assets/dataset.jpg)
 Vanilla AE looks like this:
