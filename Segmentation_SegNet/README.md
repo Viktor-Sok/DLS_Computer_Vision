@@ -2,7 +2,7 @@
  ![](assets/dataset.jpg)
 
 # Description
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Image_Editing_StyleCLIP_Optimization/blob/main/notebooks/styleCLIP_optimization_playground.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/DLS_Computer_Vision/blob/main/Segmentation_SegNet/notebooks/segmentation_SegNet.ipynb)
 
 1. We use [SegNet](https://arxiv.org/pdf/1511.00561) network for segmentation. 
 ![](assets/segnet.jpg)
