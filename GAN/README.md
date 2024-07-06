@@ -12,7 +12,7 @@ We use a [smaller version](https://www.kaggle.com/datasets/tommykamaz/faces-data
 We use quite straighforward architecture with transposed convolutions for generator and 2D convolutions for discriminator. The generator has 3'800'000 parameters and dicsriminator has 2'800'000.
 The latent dimension (random vectors from wich images generated) was chosen to be equal 64.
 # Training
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/Image_Editing_StyleCLIP_Optimization/blob/main/notebooks/styleCLIP_optimization_playground.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Viktor-Sok/DLS_Computer_Vision/blob/main/GAN/notebooks/simple_GAN.ipynb)
 
 Cross-Enthropy loss is used for building GAN loss. As discriminator's job is easier compared to  generator's, we smooth labels for true (y = 1) and fake (y = 0) images.<br>
 NB: Other techniques to improve learning are swapping some real and fake images, adding noise to images and making more gradient descent steps for generator.<br>
