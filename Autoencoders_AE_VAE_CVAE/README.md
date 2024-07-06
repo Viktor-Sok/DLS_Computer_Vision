@@ -21,6 +21,7 @@ To explore the 2 dimensional latent space we encode a lot of samples from MNIST 
 ![](assets/mnist_latent_vae.jpg)
 
 3. Finally we implement CVAE with 10 dimensional latent space, so we can generate desired digit from MNIST by passing one-hot encoded class representation into CVAE architecture:
+
 ![](assets/cvae.png)
 Image below shows that we are able to generate all the digits from 0 to 9 from the same random latent vector (each row generated from the same latent vector, but with different condition)
 ![](assets/res_cvae.jpg)
