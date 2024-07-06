@@ -34,7 +34,7 @@ After 80 epochs we made a decision to stop training:
 
 ![](assets/80_epochs.jpg)
 
-As training further would lead to model collapse, i.e. the generator will generate the same image almost all the time:
+As training for additional 40 epochs would lead to model collapse, i.e. the generator will generate the same image almost all the time:
 
 ![](assets/120_epochs.jpg)
 
