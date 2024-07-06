@@ -3,7 +3,7 @@ In this repository a simple GAN generative model is implemented and trained for 
 
 ![](assets/gen_models.jpg)
 
-The core idea which GAN based on is to learn train set images' distribution through classification downstream task. Generative part of the GAN works similar to the [inverse transform sampling](https://en.wikipedia.org/wiki/Inverse_transform_sampling) from probability theory. The training goal of GAN can be interpreted as reaching the [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium#:~:text=A%20Nash%20equilibrium%20is%20a,Nash%20equilibrium) from game theory.
+The core idea which GAN based on is to learn train set images' distribution through classification downstream task. Generative part of the GAN works similar to the [inverse transform sampling](https://en.wikipedia.org/wiki/Inverse_transform_sampling) from probability theory. The training goal of GAN can be interpreted as reaching the [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium#:~:text=A%20Nash%20equilibrium%20is%20a,Nash%20equilibrium) from game theory or performing minmax optimization.
 
 # Dataset
 We use a [smaller version](https://www.kaggle.com/datasets/tommykamaz/faces-dataset-small?resource=download-directory) of FFHQ dataset consisting of 3143 photos of people's faces at 1024x1024 resolution. In order to make training task less computationally expensive, we resize images to 64x64.
