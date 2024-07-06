@@ -4,7 +4,7 @@
    
 ![](assets/dataset.jpg)
 
-Autoencoders can be used for a variety of tasks: image denoising, image retrieval, anomality detection, dimensionality reduction, deep faes, etc. Vanilla AE looks like this.
+Autoencoders can be used for a variety of tasks: image denoising, image retrieval, anomality detection, dimensionality reduction, deep fakes, etc. Vanilla AE looks like this.
 
 ![](assets/ae.jpg)
 
