@@ -7,3 +7,7 @@ Homeworks from MIPT Deep Learning School
 4. [Автоэнкодер, вариационный и условный вариационный автоэнкодеры](Autoencoders_AE_VAE_CVAE/README.md)
 5. [Генерация лиц генеративной состязательной сетью](GAN/README.md)
 
+
+
+<img src="assets/certificate.png" alt="drawing" width="800"/>
+
